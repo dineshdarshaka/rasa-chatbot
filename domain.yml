@@ -1,0 +1,16 @@
+intents:
+  - prohibited_items
+  - greet
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with postal rules?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+  utter_prohibited_items:
+    - text: "Certain items are prohibited. Can you specify a country?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
